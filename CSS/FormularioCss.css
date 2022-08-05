@@ -1,0 +1,228 @@
+body {
+    background-color: #E8ECEF;
+    margin-top: 50px;
+}
+
+#Contenedor {
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: gray;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+form {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 2px 1px rgb(102, 102, 102);
+    border-radius: 4px;
+}
+
+
+/*----------Parte1----------*/
+
+#Part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Nombre {
+    background-image: url('../Iconos/persona.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding-left: 28px;
+    height: 30px;
+    border: 1px solid #a09999;
+    border-radius: 4px;
+}
+
+#Email {
+    background-image: url('../Iconos/mensaje.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding-left: 28px;
+    height: 30px;
+    border: 1px solid #a09999;
+    border-radius: 4px;
+}
+
+#Telefono {
+    background-image: url('../Iconos/telefono.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding-left: 28px;
+    height: 30px;
+    border: 1px solid #a09999;
+    border-radius: 4px;
+}
+
+
+/*----------Parte2----------*/
+
+#Part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+#TextGustos {
+    height: 30px;
+    width: 260px;
+    border: 1px solid #a09999;
+}
+
+#BotonGustos {
+    background-color: white;
+    color: #4CAF50;
+    border: #4CAF50 1px solid;
+    text-align: center;
+    display: inline-block;
+    height: 34px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#BotonGustos:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/*----------Parte3----------*/
+
+#Part3 {
+    border: #B7898D 1px solid;
+    border-radius: 4px;
+    height: auto;
+}
+
+#TablaPrincipal {
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#Bandera {
+    background-color: #4CAF50;
+    border-radius: 4px;
+}
+
+#TablaGustos {
+    border-radius: 4px;
+    border-collapse: collapse;
+    width: 262px;
+}
+
+th,
+td {
+    border: 1px solid #B7898D;
+}
+
+#Gustos {
+    width: 80px;
+}
+
+#Porcentaje {
+    width: 40px;
+}
+
+
+/*----------Parte4----------*/
+
+#Part4 {
+    display: none;
+    justify-content: left;
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+
+/*----------Parte5----------*/
+
+.texto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#BotonSubmit {
+    background-color: white;
+    color: #a09999;
+    border: #a09999 1px solid;
+    text-align: center;
+    display: inline-block;
+    height: 31px;
+    font-size: 16px;
+    border-radius: 4px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#BotonReset:hover {
+    background-color: #a09999;
+    color: white;
+}
+
+#BotonReset {
+    background-color: white;
+    color: #a09999;
+    border: #a09999 1px solid;
+    text-align: center;
+    display: inline-block;
+    height: 31px;
+    font-size: 16px;
+    border-radius: 4px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#BotonSubmit:hover {
+    background-color: #a09999;
+    color: white;
+}
+
+a {
+    margin-top: 10px;
+    text-align: left;
+}
